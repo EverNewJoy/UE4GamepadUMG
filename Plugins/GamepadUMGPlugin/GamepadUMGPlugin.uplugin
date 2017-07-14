@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Gamepad UMG Plugin",
+	"Description" : "The code in this plugin was written by Epic Developer Nick Darnell and it enables you to use a gamepad like a mouse with UMG! Yay! I just compiled the code into a plugin. -Rama",
+	"Category" : "Rama",
+	"CreatedBy" : "Rama",
+	"CreatedByURL" : "https://forums.unrealengine.com/showthread.php?299-Wiki-Code-Tutorials",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "GamepadUMGPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"Changelist" : 3299760,
+	"BuildId" : "cf830ae8-cfb5-4473-8ace-24863c4d16f7",
+	"Modules" : 
+	{
+		"GamepadUMGPlugin" : "UE4Editor-GamepadUMGPlugin.dll"
+	}
+}
