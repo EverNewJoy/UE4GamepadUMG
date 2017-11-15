@@ -1,0 +1,8 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4\Development\GamepadUMGPlugin\Module.GamepadUMGPlugin.cpp.obj"
+"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4\Development\GamepadUMGPlugin\Module.GamepadUMGPlugin.gen.cpp.obj"
+"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Intermediate\Build\Win64\UE4\Development\GamepadUMGPlugin\PCLaunch.rc.res"
+/OUT:"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Plugins\GamepadUMGPlugin\Binaries\Win64\UE4-GamepadUMGPlugin.lib"
