@@ -5,21 +5,10 @@ using System.Collections.Generic;
 
 public class GamepadUMGEditorTarget : TargetRules
 {
-	public GamepadUMGEditorTarget(TargetInfo Target)
+	public GamepadUMGEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-	}
 
-	//
-	// TargetRules interface.
-	//
-
-	public override void SetupBinaries(
-		TargetInfo Target,
-		ref List<UEBuildBinaryConfiguration> OutBuildBinaryConfigurations,
-		ref List<string> OutExtraModuleNames
-		)
-	{
-		OutExtraModuleNames.Add("GamepadUMG");
+        ExtraModuleNames.Add("GamepadUMG");
 	}
 }

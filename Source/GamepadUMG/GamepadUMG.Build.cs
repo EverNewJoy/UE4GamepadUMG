@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class GamepadUMG : ModuleRules
 {
-	public GamepadUMG(TargetInfo Target)
+	public GamepadUMG(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 		
