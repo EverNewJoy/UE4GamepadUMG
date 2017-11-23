@@ -10,7 +10,7 @@
 	"DocsURL" : "",
 	"MarketplaceURL" : "",
 	"SupportURL" : "",
-	"EngineVersion" : "4.17",
+	"EngineVersion" : "4.17.0",
 	"CanContainContent" : false,
 	"IsBetaVersion" : false,
 	"Installed" : true,
