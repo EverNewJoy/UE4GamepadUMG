@@ -3,8 +3,8 @@ using UnrealBuildTool;
 
 public class GamepadUMGPlugin : ModuleRules
 {
-	public GamepadUMGPlugin(TargetInfo Target)
-	{
+    public GamepadUMGPlugin(ReadOnlyTargetRules Target) : base(Target)
+    {
         PublicDependencyModuleNames.AddRange(
 			new string[] { 
 				"Core", 
