@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,7 +14,7 @@ class APlayerController;
 #endif
 #define GAMEPADUMGPLUGIN_VirtualCursorFunctionLibrary_generated_h
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIsCursorOverInteractableWidget) \
 	{ \
@@ -43,7 +43,7 @@ class APlayerController;
 	}
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIsCursorOverInteractableWidget) \
 	{ \
@@ -72,7 +72,7 @@ class APlayerController;
 	}
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS_NO_PURE_DECLS \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUVirtualCursorFunctionLibrary(); \
 	friend GAMEPADUMGPLUGIN_API class UClass* Z_Construct_UClass_UVirtualCursorFunctionLibrary(); \
@@ -82,7 +82,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUVirtualCursorFunctionLibrary(); \
 	friend GAMEPADUMGPLUGIN_API class UClass* Z_Construct_UClass_UVirtualCursorFunctionLibrary(); \
@@ -92,7 +92,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_STANDARD_CONSTRUCTORS \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVirtualCursorFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVirtualCursorFunctionLibrary) \
@@ -105,7 +105,7 @@ private: \
 public:
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_ENHANCED_CONSTRUCTORS \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVirtualCursorFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -118,32 +118,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVirtualCursorFunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVirtualCursorFunctionLibrary)
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_PRIVATE_PROPERTY_OFFSET
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_14_PROLOG
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_GENERATED_BODY_LEGACY \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_PRIVATE_PROPERTY_OFFSET
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_14_PROLOG
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_PRIVATE_PROPERTY_OFFSET \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_STANDARD_CONSTRUCTORS \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_PRIVATE_PROPERTY_OFFSET \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_GENERATED_BODY \
+#define GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_PRIVATE_PROPERTY_OFFSET \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS_NO_PURE_DECLS \
-	UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_ENHANCED_CONSTRUCTORS \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_PRIVATE_PROPERTY_OFFSET \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_INCLASS_NO_PURE_DECLS \
+	GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UE4GamepadUMG_Metahusk_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h
+#define CURRENT_FILE_ID GIT_Plugins_GamepadUMGPlugin_Source_GamepadUMGPlugin_Public_VirtualCursorFunctionLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

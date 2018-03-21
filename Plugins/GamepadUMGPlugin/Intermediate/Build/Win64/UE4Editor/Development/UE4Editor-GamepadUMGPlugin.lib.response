@@ -6,9 +6,9 @@
 /NAME:"UE4Editor-GamepadUMGPlugin.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"I:\Unreal Engine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4Editor\Development\GamepadUMGPlugin\Module.GamepadUMGPlugin.cpp.obj"
-"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4Editor\Development\GamepadUMGPlugin\Module.GamepadUMGPlugin.gen.cpp.obj"
-"I:\Unreal Engine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\GamepadUMGPlugin\PCLaunch.rc.res"
-"I:\Unreal Engine\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"I:\Unreal Projectss\UE4GamepadUMG-Metahusk\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GamepadUMGPlugin.lib"
+"C:\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Cloud\Downloads\umg 4.17\GIT\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4Editor\Development\GamepadUMGPlugin\Module.GamepadUMGPlugin.cpp.obj"
+"C:\Users\Cloud\Downloads\umg 4.17\GIT\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4Editor\Development\GamepadUMGPlugin\Module.GamepadUMGPlugin.gen.cpp.obj"
+"C:\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\GamepadUMGPlugin\PCLaunch.rc.res"
+"C:\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Cloud\Downloads\umg 4.17\GIT\Plugins\GamepadUMGPlugin\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GamepadUMGPlugin.lib"
