@@ -1,7 +1,7 @@
 {
 	"FileVersion" : 3,
 	"Version" : 1,
-	"VersionName" : "1.01",
+	"VersionName" : "1.02",
 	"FriendlyName" : "Gamepad UMG Plugin",
 	"Description" : "The code in this plugin was written by Epic Developer Nick Darnell and it enables you to use a gamepad like a mouse with UMG! Yay! I just compiled the code into a plugin. -Rama",
 	"Category" : "Rama",
@@ -10,7 +10,7 @@
 	"DocsURL" : "",
 	"MarketplaceURL" : "",
 	"SupportURL" : "",
-	"EngineVersion" : "4.19.0",
+	"EngineVersion" : "4.20.0",
 	"CanContainContent" : false,
 	"IsBetaVersion" : false,
 	"Installed" : true,
