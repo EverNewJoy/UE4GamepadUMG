@@ -24,7 +24,7 @@ void FGameAnalogCursor::EnableAnalogCursor(class APlayerController* PC, TSharedP
 	{
 		const float CursorRadius = GetDefault<UGamepadCursorSettings>()->GetAnalogCursorRadius();
 		TSharedPtr<FGameAnalogCursor> AnalogCursor = MakeShareable(new FGameAnalogCursor(PC, CursorRadius));
-		FSlateApplication::Get().SetInputPreProcessor(true, AnalogCursor);
+		FSlateApplication::Get().RegisterInputPreProcessor(AnalogCursor);
 		FSlateApplication::Get().SetCursorRadius(CursorRadius);
 
 		GetMutableDefault<UGamepadCursorSettings>()->SetAnalogCursor(AnalogCursor);
@@ -45,7 +45,7 @@ void FGameAnalogCursor::DisableAnalogCursor(class APlayerController* PC)
 	{
 		if (FSlateApplication::IsInitialized())
 		{
-			FSlateApplication::Get().SetInputPreProcessor(false);
+			FSlateApplication::Get().UnregisterInputPreProcessor(GetMutableDefault<UGamepadCursorSettings>()->GetAnalogCursor());
 			FSlateApplication::Get().SetCursorRadius(0.0f);
 		}
 	
