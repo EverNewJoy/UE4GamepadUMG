@@ -29,7 +29,7 @@ void FGameAnalogCursor::EnableAnalogCursor(class APlayerController* PC, TSharedP
 			GetMutableDefault<UGamepadCursorSettings>()->SetAnalogCursor(AnalogCursor);
 		}
 		
-		FSlateApplication::Get().RegisterInputPreProcessor(AnalogCursor);
+		FSlateApplication::Get().RegisterInputPreProcessor(GetMutableDefault<UGamepadCursorSettings>()->GetAnalogCursor());
 		FSlateApplication::Get().SetCursorRadius(CursorRadius);
 
 		//setup the new input mode
