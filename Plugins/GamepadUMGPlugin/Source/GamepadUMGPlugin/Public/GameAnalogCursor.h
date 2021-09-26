@@ -5,7 +5,9 @@
 */
 #pragma once
 
-#include "AnalogCursor.h"
+#include "Framework/Application/AnalogCursor.h" 
+#include "Widgets/SWidget.h" 
+#include "Engine/LocalPlayer.h" 
 
 class FGameAnalogCursor : public FAnalogCursor
 {
