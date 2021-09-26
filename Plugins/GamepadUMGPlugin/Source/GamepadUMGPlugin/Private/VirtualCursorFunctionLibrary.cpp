@@ -8,7 +8,6 @@
 #include "GamepadUMGPluginPrivatePCH.h"
 #include "GamepadCursorSettings.h"
 
-
 void UVirtualCursorFunctionLibrary::EnableVirtualCursor(class APlayerController* PC)
 {
 	FGameAnalogCursor::EnableAnalogCursor(PC, TSharedPtr<SWidget>());
