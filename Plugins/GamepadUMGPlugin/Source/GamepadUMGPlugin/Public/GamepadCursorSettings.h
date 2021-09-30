@@ -6,8 +6,10 @@
 #pragma once
 
 #include "Engine/DeveloperSettings.h"
-
+#include "Curves/CurveFloat.h"
+#include "Curves/RichCurve.h"
 #include "GamepadCursorSettings.generated.h"
+
 
 class FGameAnalogCursor;
 

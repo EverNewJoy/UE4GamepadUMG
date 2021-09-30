@@ -14,6 +14,6 @@ public class GamepadUMGPlugin : ModuleRules
 			}
 		);
 
-        PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "UMG" });
+        PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore", "UMG", "DeveloperSettings" });
 	}
 }

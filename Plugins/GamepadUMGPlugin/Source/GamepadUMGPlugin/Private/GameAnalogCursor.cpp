@@ -3,10 +3,10 @@
 	
 	Plugin created by Rama
 */
+#include "GameAnalogCursor.h"
 #include "GamepadUMGPluginPrivatePCH.h"
 #include "GamepadCursorSettings.h"
-#include "GameAnalogCursor.h"
-#include "WidgetLayoutLibrary.h"
+#include "Blueprint/WidgetLayoutLibrary.h"
 #include "Engine/UserInterfaceSettings.h"
 
 bool IsWidgetInteractable(const TSharedPtr<SWidget> Widget)
